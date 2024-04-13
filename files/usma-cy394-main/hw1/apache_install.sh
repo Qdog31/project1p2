@@ -2,7 +2,7 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install apache2 -y
 sudo a2enmod proxy_http lbmethod_bytraffic
-read -p "Enter the flask IP address: " flaskip
+flaskip = "172.19.0.4"
 echo "<VirtualHost *:80>
     ServerName cy394.com
 
